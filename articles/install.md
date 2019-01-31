@@ -1,4 +1,5 @@
-# Intro 
+# Installation information
+
 
 ## Dixit rex dies quem quae manifesta carpserat
 
