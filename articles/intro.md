@@ -45,3 +45,6 @@ Nec induit perdis pericula ergo [felicia](http://hos-dies.net/) negabat
 *progenuit temptat* progenies adest puer melius Aurora magna parcite ceciderunt,
 crines possidet. Modo formam, parenti sum septem. Radios nunc mox; ulmo quo o
 Pandion semimari sorores, quem.
+
+## Test image embedded in the site
+![Alt text](/images/test_image.jpg)
