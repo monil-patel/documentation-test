@@ -47,4 +47,4 @@ crines possidet. Modo formam, parenti sum septem. Radios nunc mox; ulmo quo o
 Pandion semimari sorores, quem.
 
 ## Test image embedded in the site
-![Alt text](/images/test_image.jpg)
+![Alt text](/documentation-test/images/test_image.jpg)
