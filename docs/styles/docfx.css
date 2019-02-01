@@ -188,8 +188,6 @@ header {
   right: 0;
   z-index: 1000;
   /* border-top: solid 3px #1062ac; */
-  box-shadow: 0 0 6px 2px rgba(0,0,0,.06);
-
 }
 header .navbar {
   border-width: 0 0 1px;
@@ -201,10 +199,26 @@ header .navbar {
   border-color: #e7e7e7;
 }
 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background: none;
+}
+
 .navbar-brand {
   font-size: inherit;
-  padding: 0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
 }
+
+.navbar-brand-text{
+  font-weight: 600;
+  color: black;
+  margin-left: 5px;
+  margin-top: 1px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
 .navbar-collapse {
   margin: 0 -15px;
 }
@@ -453,7 +467,7 @@ article section {
 .sidetoc {
   position: fixed;
   width: 260px;
-  top: 150px;
+  top: 160px;
   bottom: 0;
   overflow-x: hidden;
   overflow-y: auto;
@@ -560,7 +574,7 @@ body .toc{
 .toc .level1 > li {
   margin-top: 10px;
   position: relative;
-  font-size: 16px;
+  font-size: 14px;
 }
 .toc .level2 {
   font-weight: normal;
@@ -580,7 +594,7 @@ body .toc{
 }
 .sidefilter {
   position: fixed;
-  top: 90px;
+  top: 105px;
   width: 260px;
   padding: 15px;
   z-index: 1;
@@ -597,7 +611,7 @@ body .toc{
 .toc-filter > input {
   border: 0;
   color: #666666;
-  padding-left: 20px;
+  padding-left: 2px;
   width: 100%;
 }
 .toc-filter > input:focus {
@@ -991,3 +1005,9 @@ div.embeddedvideo iframe {
 
 .mainContainer[dir='rtl'] main ul[role="tablist"] {
   margin: 0; }
+
+  @media (min-width: 1200px) {
+    .container {
+      width: 85%;
+    }
+  }
