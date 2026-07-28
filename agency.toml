@@ -1,4 +1,4 @@
 [plugins]
 default = [
-    "market:accessibility-kanban@https://github.com/github/awesome-copilot/tree/main",
+    "market:windows-core@https://microsoft.visualstudio.com/OS/_git/os.copilot.prompts",
 ]
