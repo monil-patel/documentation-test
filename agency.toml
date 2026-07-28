@@ -1,4 +1,4 @@
 [plugins]
 default = [
-    "market:windows-expert-review@https://microsoft.visualstudio.com/OS/_git/os.copilot.prompts",
+    "market:accessibility-kanban@https://github.com/github/awesome-copilot/tree/main",
 ]
