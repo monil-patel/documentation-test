@@ -1,1 +1,4 @@
-
+[plugins]
+default = [
+    "market:windows-core@https://microsoft.visualstudio.com/OS/_git/os.copilot.prompts",
+]
